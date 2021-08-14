@@ -10,7 +10,8 @@ Error:  org.apache.kafka.clients.FetchSessionHandler : [Consumer clientId=xxx, g
 4. What is fetch epoch ?
 5. Who decide how long session is alive ? What conf ?
 6. What is FETCH_SESSION_ID_NOT_FOUND
-7. Best pratice to configure MAX_FETCH_SESSION
+7. Tracking number of FETCH_SESSION_ID_NOT_FOUND
+8. Best pratice to configure MAX_FETCH_SESSION
 
 ### Answers
 1. Fetch requests:
@@ -58,3 +59,7 @@ brokers.
         3. The existing session has existed for more than **min.incremental.fetch.session.eviction.ms**, AND the new session has more partitions.
 1. What is FETCH_SESSION_ID_NOT_FOUND:
         The server responds with this error code when the client request refers to a fetch session that the server does not know about. This may happen if there was a client error, or **if the fetch session was evicted by the server**.
+1. Tracking number of FETCH_SESSION_ID_NOT_FOUND:
+        **NumIncrementalFetchSessions**: Tracks the number of incremental fetch sessions which exist
+        **NumIncrementalFetchPartitionsCached**: Tracks the number of partitions cached by incremental fetch sessions.
+        
