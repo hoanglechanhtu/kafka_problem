@@ -63,3 +63,6 @@ brokers.
         **NumIncrementalFetchSessions**: Tracks the number of incremental fetch sessions which exist
         **NumIncrementalFetchPartitionsCached**: Tracks the number of partitions cached by incremental fetch sessions.
         
+###Refs
+https://stackoverflow.com/questions/58484342/kafka-continuously-getting-fetch-session-id-not-found
+        
