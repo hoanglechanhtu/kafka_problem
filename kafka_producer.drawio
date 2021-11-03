@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T07:22:30.581Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="UTNQp6zBnRZn2OT2HDKv" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T07:30:12.494Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Cv0Nu9z-6ymTCxKY794m" version="15.6.6" type="github">
   <diagram id="eX1bwtQ_Un_IkeUxFx1G" name="Page-1">
-    <mxGraphModel dx="806" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="672" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,8 +152,79 @@
         <mxCell id="u9hF4vmQfbYm9YA1ZIXY-47" value="cuz only after msg is received by all-insync replicate, consumer can consume this msg" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="430" y="-485" width="120" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=classic;startFill=1;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-50" target="u9hF4vmQfbYm9YA1ZIXY-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="u9hF4vmQfbYm9YA1ZIXY-50" value="time" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="230" y="-614" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-52" value="Time" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="227" y="-840" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-53" value="send()" style="swimlane;startSize=20;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="u9hF4vmQfbYm9YA1ZIXY-52">
+          <mxGeometry y="20" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-58" value="max.block.ms" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="u9hF4vmQfbYm9YA1ZIXY-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="40" as="sourcePoint" />
+            <mxPoint x="110" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-54" value="Batching" style="swimlane;startSize=20;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="u9hF4vmQfbYm9YA1ZIXY-52">
+          <mxGeometry x="120" y="20" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-61" value="linger.ms" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="u9hF4vmQfbYm9YA1ZIXY-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="60" as="sourcePoint" />
+            <mxPoint x="110" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;startArrow=classic;startFill=1;" edge="1" parent="u9hF4vmQfbYm9YA1ZIXY-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="129.9999999999999" as="sourcePoint" />
+            <mxPoint x="450" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-68" value="delivery.timeout.ms" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="u9hF4vmQfbYm9YA1ZIXY-67">
+          <mxGeometry x="-0.1008" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-55" value="Await send" style="swimlane;startSize=20;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="u9hF4vmQfbYm9YA1ZIXY-52">
+          <mxGeometry x="240" y="20" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="u9hF4vmQfbYm9YA1ZIXY-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="79.58000000000004" as="sourcePoint" />
+            <mxPoint x="110" y="79.58000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-56" value="Retries" style="swimlane;startSize=20;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="u9hF4vmQfbYm9YA1ZIXY-52">
+          <mxGeometry x="360" y="20" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-64" value="retry,backoff.ms" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="u9hF4vmQfbYm9YA1ZIXY-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="89.57999999999993" as="sourcePoint" />
+            <mxPoint x="110" y="89.57999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-57" value="Inflight" style="swimlane;startSize=20;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="u9hF4vmQfbYm9YA1ZIXY-52">
+          <mxGeometry x="480" y="20" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-65" value="request.timeout.ms" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="u9hF4vmQfbYm9YA1ZIXY-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="89.57999999999993" as="sourcePoint" />
+            <mxPoint x="110" y="89.57999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-69" target="u9hF4vmQfbYm9YA1ZIXY-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-69" value="Broker crash -&amp;gt; take 30 seconds to complete election" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-614" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-71" value="delivery.timeout.ms = 120s" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-614" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
