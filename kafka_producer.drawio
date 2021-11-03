@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T07:33:58.807Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="X2n8uGAH6b-emhE-Ie8J" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T07:51:03.465Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="rhEDHSMDxwLEzbrjzpCE" version="15.6.6" type="github">
   <diagram id="eX1bwtQ_Un_IkeUxFx1G" name="Page-1">
-    <mxGraphModel dx="672" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1383" dy="2866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u9hF4vmQfbYm9YA1ZIXY-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-21" target="u9hF4vmQfbYm9YA1ZIXY-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-21" target="u9hF4vmQfbYm9YA1ZIXY-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-21" target="u9hF4vmQfbYm9YA1ZIXY-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-21" target="u9hF4vmQfbYm9YA1ZIXY-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-21" target="u9hF4vmQfbYm9YA1ZIXY-102">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u9hF4vmQfbYm9YA1ZIXY-21" value="Config" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
@@ -243,6 +255,87 @@
         </mxCell>
         <mxCell id="u9hF4vmQfbYm9YA1ZIXY-77" value="Increase throughput but also increase latency" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="747" y="-950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-79" target="u9hF4vmQfbYm9YA1ZIXY-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-79" target="u9hF4vmQfbYm9YA1ZIXY-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-79" value="compression.type" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="227" y="-1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-80" target="u9hF4vmQfbYm9YA1ZIXY-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-80" value="snappy" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="427" y="-1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-82" value="decent compression ratios + low CPU overhead + good performance" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="627" y="-1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-84" target="u9hF4vmQfbYm9YA1ZIXY-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-84" value="gzip" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="427" y="-1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-85" value="more CPU and time, better compression ratios&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="627" y="-1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-88" target="u9hF4vmQfbYm9YA1ZIXY-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-88" value="max.in.flight.requests.per.connection" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="227" y="-1229" width="213" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-89" target="u9hF4vmQfbYm9YA1ZIXY-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-89" value="higher -&amp;gt; increase memory usage while improving throughput" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1229" width="213" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-93" value="with retries, may cause msg send unordered" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1369" width="213" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-95" target="u9hF4vmQfbYm9YA1ZIXY-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-95" value="max.request.size" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="227" y="-1490" width="213" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-96" value="max size of msg and max size of batch" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1490" width="213" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-98" target="u9hF4vmQfbYm9YA1ZIXY-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-98" value="receive.buffer.bytes&lt;br&gt;send.buffer.bytes" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-100" value="size of TCP send and receive buffers" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-102" target="u9hF4vmQfbYm9YA1ZIXY-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-102" target="u9hF4vmQfbYm9YA1ZIXY-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-102" value="enable.idempotence" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-104" target="u9hF4vmQfbYm9YA1ZIXY-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-104" value="the producer will attach a sequence number to each record it sends" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-106" value="if broker receives records with same number -&amp;gt; reject" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="-100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-108" value="requires max.in.flight.requets.per.connection &amp;lt;= 5, retries &amp;gt; 0, acks=all" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-220" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
