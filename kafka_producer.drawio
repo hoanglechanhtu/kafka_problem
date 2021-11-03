@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T04:40:47.450Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="zYYtoYfMrkw34YH26Zc1" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T07:22:30.581Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="UTNQp6zBnRZn2OT2HDKv" version="15.6.6" type="github">
   <diagram id="eX1bwtQ_Un_IkeUxFx1G" name="Page-1">
     <mxGraphModel dx="806" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,6 +72,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u9hF4vmQfbYm9YA1ZIXY-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-21" target="u9hF4vmQfbYm9YA1ZIXY-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-21" target="u9hF4vmQfbYm9YA1ZIXY-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u9hF4vmQfbYm9YA1ZIXY-21" value="Config" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
@@ -148,6 +151,9 @@
         </mxCell>
         <mxCell id="u9hF4vmQfbYm9YA1ZIXY-47" value="cuz only after msg is received by all-insync replicate, consumer can consume this msg" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="430" y="-485" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-50" value="time" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-614" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
