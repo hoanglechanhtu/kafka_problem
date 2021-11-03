@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T07:30:12.494Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Cv0Nu9z-6ymTCxKY794m" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T07:33:58.807Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="X2n8uGAH6b-emhE-Ie8J" version="15.6.6" type="github">
   <diagram id="eX1bwtQ_Un_IkeUxFx1G" name="Page-1">
     <mxGraphModel dx="672" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,6 +225,24 @@
         </mxCell>
         <mxCell id="u9hF4vmQfbYm9YA1ZIXY-71" value="delivery.timeout.ms = 120s" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="630" y="-614" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-73" target="u9hF4vmQfbYm9YA1ZIXY-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-73" value="By default, producer will send msg instantly if there is available thread" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="347" y="-950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-54" target="u9hF4vmQfbYm9YA1ZIXY-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="u9hF4vmQfbYm9YA1ZIXY-75" target="u9hF4vmQfbYm9YA1ZIXY-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-75" value="If set linger.ms, producer will wait a few milliseconds to additional msges&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="547" y="-950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9hF4vmQfbYm9YA1ZIXY-77" value="Increase throughput but also increase latency" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="747" y="-950" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
