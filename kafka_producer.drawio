@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T09:37:28.185Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="hMJvv32SoAGAE2ehFG3p" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T09:39:28.799Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="hHTe_m9LgUUccgVsN_MR" version="15.6.8" type="github">
   <diagram id="eX1bwtQ_Un_IkeUxFx1G" name="Page-1">
     <mxGraphModel dx="1468" dy="3104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -340,8 +340,48 @@
         <mxCell id="u9hF4vmQfbYm9YA1ZIXY-108" value="requires max.in.flight.requets.per.connection &amp;lt;= 5, retries &amp;gt; 0, acks=all" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-370" y="-220" width="250" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zj1I7MIvLQr3IUpewF0q-1" target="zj1I7MIvLQr3IUpewF0q-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-300" y="370" />
+              <mxPoint x="-300" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zj1I7MIvLQr3IUpewF0q-1" target="zj1I7MIvLQr3IUpewF0q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zj1I7MIvLQr3IUpewF0q-1" target="zj1I7MIvLQr3IUpewF0q-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-300" y="370" />
+              <mxPoint x="-300" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zj1I7MIvLQr3IUpewF0q-1" value="Serializers" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-230" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-3" value="Integers. ByteArrays, String and more" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-5" value="Custom Serializers" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zj1I7MIvLQr3IUpewF0q-7" target="zj1I7MIvLQr3IUpewF0q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-7" value="Avro, Thrift, Protobuf" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zj1I7MIvLQr3IUpewF0q-9" target="zj1I7MIvLQr3IUpewF0q-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-9" value="Avro" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-11" value="{&quot;namespace&quot;: &quot;customerManagement.avro&quot;,&#xa;&amp;nbsp;&quot;type&quot;: &quot;record&quot;,&#xa;&amp;nbsp;&quot;name&quot;: &quot;Customer&quot;,&#xa;&amp;nbsp;&quot;fields&quot;: [&#xa;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&quot;name&quot;: &quot;id&quot;, &quot;type&quot;: &quot;int&quot;},&#xa;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&quot;name&quot;: &quot;name&quot;,&amp;nbsp; &quot;type&quot;: &quot;string&quot;},&#xa;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&quot;name&quot;: &quot;faxNumber&quot;, &quot;type&quot;: [&quot;null&quot;, &quot;string&quot;], &quot;default&quot;: &quot;null&quot;} 1&#xa;&amp;nbsp;]&#xa;}" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-595" y="790" width="390" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
