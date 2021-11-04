@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T09:39:28.799Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="hHTe_m9LgUUccgVsN_MR" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T09:42:01.571Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="_Njgo7McgS0JIFhJbR9R" version="15.6.8" type="github">
   <diagram id="eX1bwtQ_Un_IkeUxFx1G" name="Page-1">
-    <mxGraphModel dx="1468" dy="3104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2492" dy="3104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -377,11 +377,31 @@
         <mxCell id="zj1I7MIvLQr3IUpewF0q-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zj1I7MIvLQr3IUpewF0q-9" target="zj1I7MIvLQr3IUpewF0q-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zj1I7MIvLQr3IUpewF0q-9" target="zj1I7MIvLQr3IUpewF0q-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zj1I7MIvLQr3IUpewF0q-9" value="Avro" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-460" y="630" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zj1I7MIvLQr3IUpewF0q-11" target="zj1I7MIvLQr3IUpewF0q-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zj1I7MIvLQr3IUpewF0q-11" value="{&quot;namespace&quot;: &quot;customerManagement.avro&quot;,&#xa;&amp;nbsp;&quot;type&quot;: &quot;record&quot;,&#xa;&amp;nbsp;&quot;name&quot;: &quot;Customer&quot;,&#xa;&amp;nbsp;&quot;fields&quot;: [&#xa;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&quot;name&quot;: &quot;id&quot;, &quot;type&quot;: &quot;int&quot;},&#xa;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&quot;name&quot;: &quot;name&quot;,&amp;nbsp; &quot;type&quot;: &quot;string&quot;},&#xa;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&quot;name&quot;: &quot;faxNumber&quot;, &quot;type&quot;: [&quot;null&quot;, &quot;string&quot;], &quot;default&quot;: &quot;null&quot;} 1&#xa;&amp;nbsp;]&#xa;}" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-595" y="790" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-13" value="Application writing msg switches to a new &lt;b&gt;Compatible &lt;/b&gt;schema, the reading application can continue processing" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="630" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zj1I7MIvLQr3IUpewF0q-15" target="zj1I7MIvLQr3IUpewF0q-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-870" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-15" value="&lt;div&gt;{&quot;namespace&quot;: &quot;customerManagement.avro&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;type&quot;: &quot;record&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;name&quot;: &quot;Customer&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;fields&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&quot;name&quot;: &quot;id&quot;, &quot;type&quot;: &quot;int&quot;},&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&quot;name&quot;: &quot;name&quot;,&amp;nbsp; &quot;type&quot;: &quot;string&quot;},&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&quot;name&quot;: &quot;email&quot;, &quot;type&quot;: [&quot;null&quot;, &quot;string&quot;], &quot;default&quot;: &quot;null&quot;}&lt;/div&gt;&lt;div&gt;&amp;nbsp;]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1065" y="790" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1I7MIvLQr3IUpewF0q-19" value="getFax() will return null" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
